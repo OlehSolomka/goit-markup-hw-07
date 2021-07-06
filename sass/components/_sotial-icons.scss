@@ -37,8 +37,8 @@
   }
 }
 
-.sotial__icons-list:not(:last-child),
-.footer-sotial__list-item:not(:last-child) {
+.sotial__item:not(:last-child),
+.footer-sotial__item:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -73,7 +73,7 @@
   transition: background-color 250ms $timefunction;
 
   &:hover,
-  &:focus{
+  &:focus {
     background-color: $accent-color;
   }
 }
@@ -83,4 +83,3 @@
   width: 20px;
   height: 20px;
 }
-

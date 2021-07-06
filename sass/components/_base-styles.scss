@@ -18,13 +18,21 @@ p {
   padding: 0px;
 }
 .container {
-  @extend %container;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding: 0px 15px;
 }
 .section {
-  @extend %section;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .section__header {
-  @extend %section__header;
+  margin-bottom: 50px;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .logo {
   @extend%logo;

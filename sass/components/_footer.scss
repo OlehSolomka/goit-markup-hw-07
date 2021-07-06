@@ -4,7 +4,6 @@
   padding-top: 60px;
 }
 .footer__container {
-  @extend %container;
   display: flex;
   align-items: baseline;
 }
@@ -18,5 +17,3 @@
 }
 
 @import "./footer-form";
-
-

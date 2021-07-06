@@ -1,4 +1,4 @@
-.contact-list {
+.contacts {
   display: flex;
   margin-left: auto;
   @extend %list;
@@ -7,7 +7,7 @@
   }
 }
 
-.contact-list__link {
+.contacts__link {
   @extend %link;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
   }
 }
 
-.contact-list__mail-icon {
+.contacts__mail-icon {
   fill: $secondary-text-color;
   width: 16px;
   height: 12px;
@@ -39,7 +39,7 @@
 
   transition: fill 250ms $timefunction;
 }
-.contact-list__phone-icon {
+.contacts__phone-icon {
   fill: $secondary-text-color;
   width: 10px;
   height: 16px;
@@ -48,7 +48,7 @@
   transition: fill 250ms $timefunction;
 }
 
-.contact-list__link--footer {
+.contacts__link--footer {
   @extend %link;
   color: $footer-contacts-color;
 
@@ -57,9 +57,9 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.contact-list--footer {
+.contacts--footer {
   @extend %list;
 }
-.contact-list__item--footer {
+.contacts__item--footer {
   margin-top: 9px;
 }

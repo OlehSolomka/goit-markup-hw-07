@@ -1,9 +1,8 @@
-
 .task__list {
   @extend %list;
   display: flex;
 }
-.task__list-item:not(:last-child) {
+.task__item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -26,7 +25,7 @@
   color: #ffffff;
 }
 
-.card__text-thumb {
+.card__thumb {
   position: absolute;
   bottom: 0%;
   width: 100%;

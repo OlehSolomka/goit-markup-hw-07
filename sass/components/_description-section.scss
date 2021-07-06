@@ -8,7 +8,7 @@
   &__item:not(:last-child) {
     margin-right: 30px;
   }
-  &__icon-background {
+  &__thumb {
     @include centeredFlex;
     margin-bottom: 30px;
     width: 270px;
